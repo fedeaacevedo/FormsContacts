@@ -46,12 +46,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BusinessLoginLayer.cs" />
+    <Compile Include="Contact.cs" />
     <Compile Include="ContactoDetails.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="ContactoDetails.Designer.cs">
       <DependentUpon>ContactoDetails.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataAccesLayer.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>

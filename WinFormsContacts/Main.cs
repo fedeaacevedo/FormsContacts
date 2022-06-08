@@ -26,5 +26,25 @@ namespace WinFormsContacts
         {
 
         }
+        #region EVENTOS
+        private void btnAdd_Click(object sender, EventArgs e)
+        {
+            OpenContactDetailDialog();
+        }
+
+        #endregion
+
+        #region PRIVATE METHODS
+
+        private void OpenContactDetailDialog()
+        {
+            //llamamos al segundo formulario
+            ContactoDetails contactoDetails = new ContactoDetails();
+            contactoDetails.ShowDialog();
+        }
+
+        #endregion
+
     }
+    
 }
